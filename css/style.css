@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic');
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header, main, footer {
+	padding: 1.25rem;
+}
+h1 {
+	font-size: 1.75rem;
+	font-weight: 700;
+	line-height: 1;
+	margin: 0 0 1.75rem 0;
+	text-transform: uppercase;
+}
+
+body {
+    margin: 0;
+}
+.header {
+    background-image: url(../img/football_767.jpg);
+    background-color: #222248;
+    background-blend-mode: overlay;
+    max-width: 100%;
+    font-size: 1.75rem;
+    font-weight: 700;
+    box-sizing: border-box;
+    min-height: 100vh;
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    background-position: 50% 50%;
+    background-size: 115%;
+    background-repeat: no-repeat;
+}
+
+.header p {
+	text-transform: uppercase;
+	padding-left: 2.8rem;
+	line-height: 1;
+}
+.header a {
+	max-width: 100%;
+	font-size: 0.5rem;
+	line-height: 0.75rem;
+	display: block;
+	padding-left: 5.25rem;
+	padding-right: : 5.25rem;
+	margin-bottom: 0.9rem;
+	text-transform: uppercase;
+	/* margin-top: 2.28rem; */
+	font-weight: 400;
+	background-color: #5e42b0;
+	border-radius: 2rem;
+	color: white;
+	padding: 5px;
+}
+.header a span {
+	max-width: 100%;
+	font-size: 0.5rem;
+	display: block;
+	font-weight: 700;
+}
+
+.hero-text {
+    color: white;
+}
+.logo {
+    max-width: 133px;
+    margin: auto;
+    flex: 1;
+}
+.text-logo {
+    height: 3.25rem;
+}
+.button__block {
+    flex: 1 auto;
+    text-align: left;
+}
+.appstore {
+
+}
+.googleplay {
+
+}
+.text-white {
+	fill: #ffffff;
+}
+
+ol {
+    padding: 1.75rem 0 0 0;
+    margin: 0;
+}
+ol > li {
+	list-style-type:none;
+    counter-increment: list;
+}
+ol > li:before {
+    content: "0" counter(list) "";
+    border-bottom: 4px solid;
+    font-size: 14px;
+    line-height: 12px;
+    padding: 2px;
+}
+
+.style h3 {
+    display: inline-block;
+    margin: 0;
+
+}
+a .text-white {
+    max-width: 1.5rem;
+    margin-left: 5rem;
+    float: left;
+    padding-right: 0.25rem;
+}
+h2 {
+	font-size: 3.125rem;
+	line-height: 0.83em;
+	margin: 0;
+	color: #e7e7e7;
+	margin-bottom: 1.25rem;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
